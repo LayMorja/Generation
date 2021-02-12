@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #cc883e } 
+	</style>
+	<g id="header">
+		<g id="circles">
+			<path id="форма 1" class="shp0" d="M200 400C89.4 400 0 310.6 0 200C0 89.4 89.4 0 200 0C310.6 0 400 89.4 400 200C400 310.6 310.6 400 200 400Z" />
+		</g>
+	</g>
+</svg>

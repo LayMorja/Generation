@@ -1,0 +1,359 @@
+/************************** Подключение шрифтов **************************/
+@font-face {
+  font-family: 'Gotham Pro Light';
+  src: url('./fonts/GothamPro-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('./fonts/GothamPro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro Medium';
+  src: url('./fonts/GothamPro-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro Black';
+  src: url('./fonts/GothamPro-Black.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/************************** Общие свойства **************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gotham Pro', sans-serif;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+/* .block {
+  width: 100%;
+  max-width: 1920px;
+  height: 100%;
+} */
+
+.header {
+  background: linear-gradient(to bottom, #A9BA9D 0%, #9AAB8E 100%);
+  /* position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -650px; */
+}
+
+.block-title {
+  font-family: 'Gotham Pro Black';
+  text-align: center;
+  font-size: 5.625rem;
+  font-weight: bolder;
+  letter-spacing: 1rem;
+  filter: drop-shadow(2px 3px 5px rgba(87, 80, 65, 0.63));
+  max-width: 1330px;
+  margin: 120px auto 160px auto;
+  /* padding-bottom: 10px; */
+  /* padding-top: 30px; */
+  border-bottom: solid 0.5rem #fff;
+}
+
+.dark-theme-content,
+.asym-content {
+  display: flex;
+}
+
+/************************** Кружочки **************************/
+.circle {
+  position: absolute;
+}
+
+.circle_1 {
+  left: 345px;
+  top: 320px;
+  z-index: 2;
+}
+
+.circle_2 {
+  left: 390px;
+  top: 365px;
+}
+
+.circle_3 {
+  left: 275px;
+  top: 560px;
+  z-index: 3;
+  filter: drop-shadow(2px 3px 10px rgba(117, 108, 87, 0.63));
+}
+
+.circle_4 {
+  left: 530px;
+  top: 315px;
+  z-index: 4;
+  filter: drop-shadow(2px 3px 10px rgba(117, 108, 87, 0.63));
+}
+
+.circle_5 {
+  left: 1050px;
+  top: 245px;
+  z-index: 5;
+  filter: drop-shadow(2px 3px 10px rgba(117, 108, 87, 0.63));
+}
+
+.circle_6 {
+  left: 1040px;
+  top: 460px;
+  filter: drop-shadow(2px 3px 10px rgba(117, 108, 87, 0.63));
+}
+
+.circle_7 {
+  left: 1335px;
+  top: 680px;
+  filter: drop-shadow(2px 3px 10px rgba(117, 108, 87, 0.63));
+}
+
+/************************** Первый блок - темное оформление **************************/
+.dark-theme {
+  background: linear-gradient(to bottom, #3B3C36 0%, #2C2D27 100%);
+}
+
+.dark-theme-text {
+  margin-left: 160px;
+  max-width: 750px;
+  letter-spacing: 0.1875rem;
+}
+
+.dark-theme-text>p {
+  margin-bottom: 25px;
+}
+
+.dark-theme-text>p:last-child {
+  margin-bottom: 0;
+}
+
+.dark-theme-swiper,
+.dark-theme-image {
+  width: 700px;
+  height: 450px;
+}
+
+/************************** Второй блок - асимметричный дизайн **************************/
+.asym-block {
+  background: linear-gradient(45deg, #996d8e 37%, #066326 37%);
+}
+
+.asym-title {
+  max-width: 1530px;
+  margin-left: 45px;
+  margin-bottom: 90px;
+}
+
+.asym-content {
+  max-width: 1920px;
+  padding: 0 80px 0 50px;
+  letter-spacing: 0.1875rem;
+}
+
+.asym-text-left {
+  max-width: 450px;
+}
+
+.asym-text-right {
+  max-width: 600px;
+  margin-top: 320px;
+}
+
+.asym-swiper,
+.asym-image {
+  width: 650px;
+  height: 400px;
+}
+
+.asym-swiper {
+  margin-top: 70px;
+}
+
+/************************** Третий блок - с видео **************************/
+.overlay {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+}
+
+#nubexDiv {
+  overflow: hidden;
+}
+
+/* #nubexVideo {
+  width: auto;
+  max-height: 966px;
+} */
+
+.video-title {
+  font-family: 'Gotham Pro Black';
+  text-align: center;
+  font-size: 5.625rem;
+  font-weight: bolder;
+  filter: drop-shadow(2px 3px 5px rgba(87, 80, 65, 0.63));
+  padding-bottom: 10px;
+  border-bottom: solid 8px #fff;
+  padding-top: 30px;
+  letter-spacing: 15px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -500px;
+  max-width: 1000px;
+}
+
+.video-text {
+  position: absolute;
+  display: flex;
+  max-width: 1400px;
+  max-height: 650px;
+  top: 50%;
+  margin-top: -305px;
+  left: 50%;
+  margin-left: -700px;
+}
+
+.video-text>p {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.video-text>p:last-child {
+  margin-right: 0;
+}
+
+.video-text>p:first-child {
+  margin-left: 0;
+}
+
+.video-swiper {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  margin-left: -300px;
+  width: 600px;
+  height: 350px;
+}
+
+.video-image {
+  width: 600px;
+  height: 350px;
+}
+
+/************************** Четвертый блок - адаптивный дизайн **************************/
+.mobile-block {
+  background: #44A08D;
+  background: -webkit-linear-gradient(to top, #093637, #44A08D);
+  background: linear-gradient(to top, #093637, #44A08D);
+}
+
+.mobile-title {
+  margin-bottom: 80px;
+}
+
+.mobile-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobile-text > p {
+  max-width: 600px;
+  margin-right: 80px;
+  margin-bottom: 10px;
+}
+
+.mobile-image > img {
+  max-width: 600px;
+  max-height: 600px;
+}
+/************************** Свойства слайдера **************************/
+.swiper-container {
+  border-radius: 10%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: rgb(146, 146, 146);
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #fff;
+}
+
+.swiper-button-prev {
+  left: 5px;
+}
+
+.swiper-button-next {
+  right: 5px;
+}
+
+:root {
+  --swiper-navigation-size: 24px;
+}
+
+/************************** Свойства FullPage.js **************************/
+#fp-nav ul li .fp-tooltip {
+  font-family: 'Gotham Pro', sans-serif;
+  font-size: 1rem;
+  top: -4px;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: #f2f2f2;
+}
+
+.fp-tableCell {
+  vertical-align: top;
+}
+
+/************************** Свойства предзагрузочного экрана **************************/
+.mask {
+  width: 100%;
+  height: 100%;
+  background: #e6e5e5;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  transition: 0.6s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  width: 105px;
+  height: 105px;
+  border: 15px solid rgba(244, 200, 140, 0.6);
+  border-radius: 50%;
+  border-left-color:#f4c88c;
+  animation: loader 1.3s linear infinite;
+ }
+ @keyframes loader {
+  100% {
+   transform: rotate(360deg);
+  }
+ }
+
+.hide {
+  opacity: 0;
+}
