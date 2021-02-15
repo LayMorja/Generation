@@ -1,3 +1,4 @@
+// Слайдер тёмной темы
 const darkThemeSwiper = new Swiper('.dark-theme-swiper', {
   // параметры слайдера
   loop: true,
@@ -10,6 +11,7 @@ const darkThemeSwiper = new Swiper('.dark-theme-swiper', {
   },
 });
 
+// Слайдер асимметричного блока
 const asymSwider = new Swiper('.asym-swiper', {
   // параметры слайдера
   loop: true,
@@ -22,6 +24,7 @@ const asymSwider = new Swiper('.asym-swiper', {
   },
 });
 
+// Видео-слайдер
 const videoSwiper = new Swiper('.video-swiper', {
   // параметры слайдера
   loop: true,
@@ -34,6 +37,7 @@ const videoSwiper = new Swiper('.video-swiper', {
   },
 });
 
+// Лоадер сайта
 let mask = document.querySelector('.mask');
 
 window.addEventListener('load', () => {
@@ -42,3 +46,6 @@ window.addEventListener('load', () => {
     mask.remove();
   }, 600)
 })
+
+// // Эффект параллакса на главном слайде
+// var rellax = new Rellax('.rellax'); 

@@ -158,6 +158,23 @@
       </div>
     </div>
     <!-- Конец второго блока -->
+    <!-- Четвертый блок - мобильная адаптация -->
+    <div class="mobile-block section">
+      <div class="mobile-title block-title">Адаптивный дизайн</div>
+      <div class="mobile-content">
+        <div class="mobile-text">
+          <p>
+            Мобильного трафика с каждым годом становится всё больше. Во многих странах он уже превысил объём десктопного трафика. Поэтому стоит уделить должное внимание адаптивному дизайну.
+          </p>
+          <p>
+            Продолжает расти популярность подхода mobile first — когда компании в большей степени уделяют внимание мобильной версии сайта. В 2020 году веб-дизайн будет ориентирован на создание сайтов, «удобных для большого пальца». А значит, нужно располагать важные элементы навигации так, чтобы до них было удобно им дотянуться.
+          </p>
+        </div>
+        <div class="mobile-image">
+          <img src="./img/mobile/mobile-img.png" alt="">
+        </div>
+      </div>
+    </div>
     <!-- Третий блок - видео на фоне -->
     <div id="nubexDiv" class="overlay section">
       <div class="video-title">Видео на фоне</div>
@@ -200,7 +217,7 @@
         <div class="swiper-button-next"></div>
       </div>
 
-      <video id="nubexVideo" width="auto" height="auto" loop="loop" autoplay="autoplay" preload="preload" muted="muted">
+      <video id="nubexVideo" width="100%" height="auto" loop="loop" autoplay="autoplay" preload="preload" muted="muted">
         <source data-src="./img/video/video.mp4">
         </source>
         <source data-src="./img/video/video.webm" type="video/webm">
@@ -209,25 +226,9 @@
 
     </div>
     <!-- Конец третьего блока -->
-    <!-- Четвертый блок - мобильная адаптация -->
-    <div class="mobile-block section">
-      <div class="mobile-title block-title">Адаптивный дизайн</div>
-      <div class="mobile-content">
-        <div class="mobile-text">
-          <p>
-            Мобильного трафика с каждым годом становится всё больше. Во многих странах он уже превысил объём десктопного трафика. Поэтому стоит уделить должное внимание адаптивному дизайну.
-          </p>
-          <p>
-            Продолжает расти популярность подхода mobile first — когда компании в большей степени уделяют внимание мобильной версии сайта. В 2020 году веб-дизайн будет ориентирован на создание сайтов, «удобных для большого пальца». А значит, нужно располагать важные элементы навигации так, чтобы до них было удобно им дотянуться.
-          </p>
-        </div>
-        <div class="mobile-image">
-          <img src="./img/mobile/mobile-img.png" alt="">
-        </div>
-      </div>
-    </div>
   </div>
   <!-- Начало скриптов -->
+  <script src="./js/scrolloverflow.min.js"></script>
   <script src="./js/fullpage.js"></script>
   <script>
     new fullpage('#fullpage', {
@@ -236,7 +237,8 @@
       navigation: true,
       navigationPosition: 'right',
       verticalCentered: true,
-      navigationTooltips: ['Тренды Веб-Дизайна', 'Темная тема', 'Асимметричный дизайн', 'Видео на фоне', 'Адаптивный дизайн'],
+      scrollOverflow: true,
+      navigationTooltips: ['Тренды Веб-Дизайна', 'Темная тема', 'Асимметричный дизайн', 'Адаптивный дизайн', 'Видео на фоне'],
     });
 
     //methods
