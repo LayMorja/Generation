@@ -518,6 +518,7 @@ body {
     font-size: 2.4rem;
     margin: 15px auto 20px auto;
     letter-spacing: 0.2rem;
+    text-decoration-thickness: 3px;
   }
   .asym-content,
   .dark-theme-content,
@@ -544,6 +545,7 @@ body {
   .video-title {
     font-size: 2.4rem;
     margin-left: -190px;
+    text-decoration-thickness: 3px;
   }
   .video-content {flex-direction: row;}
   .video-text {
