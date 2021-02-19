@@ -668,16 +668,16 @@ body {
   .block-title, .asym-title {
     font-size: 2.2rem;
   }
-  .circle_1 {top: 130px;left: 30px;}
+  .circle_1 {top: 150px;left: 15px;}
   .circle_1 > img {width: 40px;}
-  .circle_2 {top: 145px;left: 45px;}
+  .circle_2 {top: 165px;left: 30px;}
   .circle_2 > img {width: 70px;}
-  .circle_3 {top: 300px;left: 25px;}
+  .circle_3 {top: 320px;left: 10px;}
   .circle_3 > img {width: 140px;}
-  .circle_4 {top: 165px;left: 90px;}
+  .circle_4 {top: 185px;left: 75px;}
   .circle_4 > img {width: 240px;}
-  .circle_5 {top: 130px;left: 230px;}
+  .circle_5 {top: 150px;left: 215px;}
   .circle_5 > img {width: 130px;}
-  .circle_6 {display: none;}
-  .circle_7 {display: none;}
+  .circle_6 {top: 410px;left: 215px;}
+  .circle_7 {top: 435px;left: 120px;}
 }
