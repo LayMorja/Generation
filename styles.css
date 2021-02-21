@@ -712,7 +712,7 @@ body {
   }
   .video-swiper {
     margin-left: -150px;
-    top: 54%;
+    top: 65%;
   }
   .block-title, .asym-title {
     font-size: 2.2rem;
@@ -729,4 +729,5 @@ body {
   .circle_5 > img {width: 130px;}
   .circle_6 {top: 370px;left: 215px;}
   .circle_7 {top: 445px;left: 120px;}
+  #nubexVideo {height: 667px;}
 }
