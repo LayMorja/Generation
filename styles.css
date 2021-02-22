@@ -306,6 +306,7 @@ body {
   width: 100%;
   max-width: 650px;
   margin: auto;
+  text-align: left;
 }
 
 .author-content > p {
@@ -484,6 +485,75 @@ body {
   .circle_7 {top: 505px; left: 1050px}
   .video-title {padding-top: 15px;}
   #nubexVideo {height: 768px}
+}
+
+@media (max-width: 1280px) and (max-height: 720px) {
+  .asym-content,
+  .dark-theme-content,
+  .mobile-content,
+  .author-content {
+    font-size: 1rem;
+    max-width: 1020px;
+    margin: auto;
+  }
+  .dark-theme-text {
+    max-width: 450px;
+    margin-left: 20px;
+  }
+  .asym-title, .block-title, .video-title {
+    font-size: 4rem;
+    margin-top: 50px;
+  }
+  .dark-theme-swiper,
+  .dark-theme-image,
+  .asym-swiper,
+  .asym-image,
+  .video-image,
+  .video-swiper {
+    width: 500px;
+    height: 300px;
+  }
+  .header {
+    z-index: -2;
+  }
+  .circle_4 {
+    z-index: 0;
+  }
+  .circle_6 {
+    z-index: -1;
+  }
+  .asym-content {
+    max-width: 1100px;
+    padding: 0;
+  }
+  .asym-text-left,
+  .asym-text-right {
+    max-width: 300px;
+  }
+  .mobile-image > img {
+    max-width: 500px;
+  }
+  .mobile-content {
+    margin-top: 80px;
+  }
+  .mobile-text {
+    max-width: 450px;
+    margin-right: 40px;
+  }
+  .video-text {
+    font-size: 1rem;
+  }
+  .video-swiper {
+    top: 43%;
+  }
+  .video-text {
+    max-width: 1024px;
+    margin-left: -512px;
+    top: 17%;
+  }
+  .video-title {
+    margin-top: 25px;
+  }
 }
 
 @media(max-width:1024px) {
@@ -731,3 +801,4 @@ body {
   .circle_7 {top: 445px;left: 120px;}
   #nubexVideo {height: 667px;}
 }
+
