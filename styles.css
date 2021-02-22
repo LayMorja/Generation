@@ -787,6 +787,7 @@ body {
   .block-title, .asym-title {
     font-size: 2.2rem;
   }
+  .video-title {margin-top: 0px;}
   .circle_1 {top: 110px;left: 15px;}
   .circle_1 > img {width: 40px;}
   .circle_2 {top: 125px;left: 30px;}
@@ -800,6 +801,5 @@ body {
   .circle_6 {top: 370px;left: 215px;}
   .circle_7 {top: 445px;left: 120px;}
   #nubexVideo {height: 667px;}
-  .video-title {margin-top: 0;}
 }
 
