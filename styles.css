@@ -756,6 +756,7 @@ body {
     margin: auto;
     padding: 0;
   }
+  .gradient-text {letter-spacing: 0;}
   .mobile-image img {max-width: 300px;}
   .mobile-text {font-size: 1rem; margin:auto}
   .dark-theme-swiper,
