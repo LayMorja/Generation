@@ -17,12 +17,13 @@
 
 <body>
 
-  <div class="mask"> <!-- Предзагрузочный экран -->
+  <!-- Предзагрузочный экран -->
+  <div class="mask">
     <div class="loader"></div>
   </div>
 
+  <!-- Обёртка FullPage-->
   <div id="fullpage">
-    <!-- Блок для FullPage-->
     <header class="header section">
       <div class="block-title">
         Тренды Веб-Дизайна
@@ -161,7 +162,7 @@
       </div>
     </div>
     <!-- Конец второго блока -->
-    <!-- Четвертый блок - мобильная адаптация -->
+    <!-- Третий блок - мобильная адаптация -->
     <div class="mobile-block section">
       <div class="mobile-title block-title">Адаптивный дизайн</div>
       <div class="mobile-content">
@@ -178,7 +179,41 @@
         </div>
       </div>
     </div>
-    <!-- Третий блок - видео на фоне -->
+    <!-- Конец третьего блока -->
+    <!-- Четвертый блок - градиенты -->
+    <div class="gradient-block section">
+      <div class="block-title gradient-title">Градиенты</div>
+      <div class="gradient-content">
+        <div class="gradient-text">
+          <p>
+            В последнее время градиенты перешли на качественно новый уровень. Они могут быть как едва различимыми, с использованием приглушенных цветов, так и яркими, сочными. Основная особенность новых градиентов — это простота и использование одного или максимум двух оттенков.
+          </p>
+          <p>
+            Градиенты являются прекрасным средством для создания уникального графического дизайна: их можно использовать в оформлении фона, фильтра для изображений или в качестве акцента для отдельных элементов, например кнопок. Использование градиента в оформлении фона пользовательского интерфейса, создает завораживающую глубину, которая сразу запоминается в памяти. Еще один плюс такого оформления: градиенты всегда хорошо и одинаково смотрятся на всех устройствах и экранах, включая смартфоны.
+          </p>
+        </div>
+
+        <!-- Cлайдер -->
+        <div class="swiper-container gradient-swiper">
+          <!-- обёртка слайдера -->
+          <div class="swiper-wrapper">
+            <!-- слайды -->
+            <div class="swiper-slide">
+              <a href="https://timberlinetours.com/" class="swiper-link" target="_blank">
+                <img src="./img/asymmetry/asym-1_1.jpg" alt="" class="gradient-image">
+              </a>
+            </div>
+          </div>
+          <!-- кнопки навигации -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <!-- конец слайдера -->
+      </div>
+      <!-- Конец контента блока -->
+    </div>
+    <!-- Конец четвертого блока -->
+    <!-- Пятый блок - видео на фоне -->
     <div id="nubexDiv" class="overlay section">
       <div class="video-title">Видео на фоне</div>
       <div class="video-content">
@@ -229,7 +264,7 @@
       </video>
 
     </div>
-    <!-- Конец третьего блока -->
+    <!-- Конец пятого блока -->
     <!-- Последний авторский блок -->
     <div class="section author">
       <div class="author-title block-title">
@@ -266,6 +301,7 @@
         </p>
       </div>
     </div>
+    <!-- Конец авторского блока -->
   </div>
   <!-- Начало скриптов -->
   <script src="./js/scrolloverflow.min.js"></script>
@@ -278,7 +314,7 @@
       navigationPosition: 'right',
       verticalCentered: true,
       scrollOverflow: true,
-      navigationTooltips: ['Тренды Веб-Дизайна', 'Темная тема', 'Асимметричный дизайн', 'Адаптивный дизайн', 'Видео на фоне', 'О проекте'],
+      navigationTooltips: ['Тренды Веб-Дизайна', 'Темная тема', 'Асимметричный дизайн', 'Адаптивный дизайн', 'Градиенты', 'Видео на фоне', 'О проекте'],
     });
 
     //methods

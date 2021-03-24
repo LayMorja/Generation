@@ -69,7 +69,8 @@ body {
 }
 
 .dark-theme-content,
-.asym-content {
+.asym-content,
+.gradient-content {
   display: flex;
 }
 
@@ -220,7 +221,45 @@ body {
   max-height: 600px;
 }
 
-/************************** Четвертый блок - с видео **************************/
+/************************** Четвертый блок - градиенты **************************/
+.gradient-block {
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+}
+
+.gradient-title {
+  margin: 80px auto 100px;
+}
+
+.gradient-content {
+  margin: auto;
+}
+
+.gradient-swiper,
+.gradient-image {
+  width: 700px;
+  height: 450px;
+}
+
+.gradient-swiper {
+  margin-top: 45px;
+}
+
+.gradient-text {
+  margin-left: 160px;
+  max-width: 750px;
+  letter-spacing: 0.1875rem;
+}
+
+.gradient-text>p {
+  margin-bottom: 25px;
+}
+
+.gradient-text>p:last-child {
+  margin-bottom: 0;
+}
+
+/************************** Пятый блок - с видео **************************/
 .overlay {
   width: 100%;
   height: 100%;
@@ -406,12 +445,15 @@ body {
 
 /************************** Медиа запросы **************************/
 @media(max-width:1440px) {
-  .dark-theme-text {
+  .dark-theme-text,
+  .gradient-text {
     max-width: 600px;
     margin-left: 80px;
   }
   .dark-theme-swiper,
-  .dark-theme-image {
+  .dark-theme-image,
+  .gradient-swiper,
+  .gradient-image {
     width: 600px;
     height: 400px;
   }
@@ -423,7 +465,8 @@ body {
   .asym-content,
   .dark-theme-content,
   .video-text,
-  .author-content {
+  .author-content,
+  .gradient-content {
     font-size: 1.3rem;
   }
   .asym-swiper,
@@ -491,12 +534,14 @@ body {
   .asym-content,
   .dark-theme-content,
   .mobile-content,
-  .author-content {
+  .author-content,
+  .gradient-content {
     font-size: 1rem;
     max-width: 1020px;
     margin: auto;
   }
-  .dark-theme-text {
+  .dark-theme-text,
+  .gradient-text {
     max-width: 450px;
     margin-left: 20px;
   }
@@ -509,7 +554,9 @@ body {
   .asym-swiper,
   .asym-image,
   .video-image,
-  .video-swiper {
+  .video-swiper,
+  .gradient-swiper,
+  .gradient-image {
     width: 500px;
     height: 300px;
   }
@@ -565,7 +612,8 @@ body {
   .dark-theme-content,
   .video-content
   .mobile-content,
-  .author-content {
+  .author-content,
+  .gradient-content {
     font-size: 1.07rem;
     flex-direction: column;
     justify-content: center;
@@ -581,7 +629,8 @@ body {
   .asym-title {font-size: 3.3rem;}
   .dark-theme-text,
   .asym-text-left,
-  .asym-text-right {
+  .asym-text-right,
+  .gradient-text {
     margin: auto;
     max-width: 700px;
   }
@@ -593,12 +642,15 @@ body {
   .asym-swiper,
   .asym-image,
   .video-image,
-  .video-swiper {
+  .video-swiper,
+  .gradient-swiper,
+  .gradient-image {
     width: 600px;
     height: 300px;    
   }
   .dark-theme-swiper,
-  .asym-swiper {margin: 25px auto}
+  .asym-swiper,
+  .gradient-swiper {margin: 25px auto}
   .asym-text-right {margin-top: 0;margin-left: 20px;}
   
   .mobile-image img {
@@ -638,7 +690,8 @@ body {
   .dark-theme-content,
   .video-content
   .mobile-content,
-  .author-content {
+  .author-content,
+  .gradient-content {
     font-size: 1rem;
   }
   .asym-title {
@@ -696,7 +749,8 @@ body {
   .dark-theme-content,
   .mobile-content,
   .mobile-text,
-  .author-content {
+  .author-content,
+  .gradient-content {
     font-size: 1rem;
     max-width: 360px;
     margin: auto;
@@ -709,7 +763,9 @@ body {
   .asym-swiper,
   .asym-image,
   .video-image,
-  .video-swiper {
+  .video-swiper,
+  .gradient-swiper,
+  .gradient-image {
     width: 360px;
     height: 180px;    
   }
@@ -762,7 +818,8 @@ body {
   .dark-theme-content,
   .mobile-content,
   .mobile-text,
-  .author-content {
+  .author-content,
+  .gradient-content {
     font-size: 0.8rem;
     max-width: 320px;
   }
@@ -771,7 +828,9 @@ body {
   .asym-swiper,
   .asym-image,
   .video-image,
-  .video-swiper {
+  .video-swiper,
+  .gradient-swiper,
+  .gradient-image {
     width: 300px;
     height: 150px;    
   }
@@ -800,12 +859,5 @@ body {
   .circle_5 > img {width: 130px;}
   .circle_6 {top: 370px;left: 215px;}
   .circle_7 {top: 445px;left: 120px;}
-  #nubexDiv {
-    max-width: 375px;
-    max-height: 667px;
-  }
-  #nubexVideo {
-    max-height: 667px;
-  }
 }
 

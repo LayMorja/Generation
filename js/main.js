@@ -37,6 +37,19 @@ const videoSwiper = new Swiper('.video-swiper', {
   },
 });
 
+// Слайдер градиента
+const gradientSwiper = new Swiper('.gradient-swiper', {
+  // параметры слайдера
+  loop: true,
+  slidesPerView: 1,
+
+  // навигационные стрелки
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
 // Лоадер сайта
 let mask = document.querySelector('.mask');
 
