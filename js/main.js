@@ -62,3 +62,8 @@ window.addEventListener('load', () => {
 
 // // Эффект параллакса на главном слайде
 // var rellax = new Rellax('.rellax'); 
+
+window.onload = function(){
+    if(window.innerWidth >= 1024)
+    document.getElementById('video-container').innerHTML = '<video id="nubexVideo" loop autoplay muted playsinline poster="./img/video/video.jpg"><source data-src="./img/video/video.mp4"><source data-src="./img/video/video.webm" type="video/webm"></video>'
+};

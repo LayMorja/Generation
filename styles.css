@@ -224,7 +224,7 @@ body {
 /************************** Четвертый блок - градиенты **************************/
 .gradient-block {
   background-color: #FF3CAC;
-  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  background-image: linear-gradient(45deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
 }
 
 .gradient-title {
@@ -755,8 +755,8 @@ body {
     max-width: 360px;
     margin: auto;
     padding: 0;
-    letter-spacing: 0;
   }
+  .gradient-text {letter-spacing: 0;}
   .mobile-image img {max-width: 300px;}
   .mobile-text {font-size: 1rem; margin:auto}
   .dark-theme-swiper,
