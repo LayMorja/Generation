@@ -820,8 +820,9 @@ body {
   .overlay {
     background-image: url("./img/video/video-1.jpg");
   }
-  .video-swiper {top: 67%;}
-  .video-text{top:12%;}
+  .video-text,
+  .video-title,
+  .video-swiper {position: relative;}
 }
  
 @media(max-width:375px) {
