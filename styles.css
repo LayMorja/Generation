@@ -825,6 +825,7 @@ body {
   .video-swiper {position: relative;}
   .video-title {margin-left: 0;}
   .gradient-text > p {margin-bottom: 10px;}
+  .gradient-swiper {margin-top:10px;}
 }
  
 @media(max-width:375px) {
