@@ -815,12 +815,6 @@ body {
   .circle_6 {top: 470px;left: 75px;}
   .circle_7 {top: 420px;left: 200px;}
 }
-
-@media(max-width: 430px) {
-  .overlay {
-    background-image: url("./img/video/video-1.jpg");
-  }
- 
 @media(max-width:375px) {
   .asym-content,
   .dark-theme-content,
