@@ -820,14 +820,6 @@ body {
   .overlay {
     background-image: url("./img/video/video-1.jpg");
   }
-  .video-text,
-  .video-title,
-  .video-swiper {position: relative;}
-  .video-title {margin-left: 0;}
-  .gradient-text > p {margin-bottom: 10px;}
-  .gradient-swiper,
-  .video-swiper {margin-top: 10px;}
-}
  
 @media(max-width:375px) {
   .asym-content,
@@ -852,7 +844,12 @@ body {
   }
   .video-text {
     max-width: 320px;
+    margin-left: -165px;
     font-size: 0.8rem;
+  }
+  .video-swiper {
+    margin-left: -150px;
+    top: 65%;
   }
   .block-title, .asym-title {
     font-size: 2.2rem;
