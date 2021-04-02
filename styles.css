@@ -741,6 +741,10 @@ body {
   .overlay {
     background-image: url("./img/video/video-1.jpg");
   }
+  .video-text {top: 15%;}
+  .gradient-text > p {margin-bottom: 10px;}
+  .gradient-swiper {margin-top: 10px;}
+  .gradient-title {margin-bottom: 15px;}
 
 @media(max-width:450px) {
   .block-title,
