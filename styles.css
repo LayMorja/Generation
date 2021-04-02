@@ -741,7 +741,6 @@ body {
   .overlay {
     background-image: url("./img/video/video-1.jpg");
   }
-  .video-text {top: 15%;}
   .gradient-text > p {margin-bottom: 10px;}
   .gradient-swiper {margin-top: 10px;}
   .gradient-title {margin-bottom: 15px;}
@@ -795,7 +794,7 @@ body {
     margin-left: -185px;
     font-size: 1rem;
     flex-direction: column;
-    top: 10%;
+    top: 15%;
   }
   .video-text > p {
     margin: 0 0 15px 0;
