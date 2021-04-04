@@ -737,15 +737,6 @@ body {
   .section:last-child {padding:0} */
 }
 
-@media(max-width: 430px) {
-  .overlay {
-    background-image: url("./img/video/video-1.jpg");
-  }
-  .video-text {top: 15%;}
-  .gradient-text > p {margin-bottom: 10px;}
-  .gradient-swiper {margin-top: 10px;}
-  .gradient-title {margin-bottom: 15px;}
-}
 @media(max-width:450px) {
   .block-title,
   .asym-title {
@@ -795,6 +786,7 @@ body {
     margin-left: -185px;
     font-size: 1rem;
     flex-direction: column;
+    top: 10%;
   }
   .video-text > p {
     margin: 0 0 15px 0;
@@ -822,6 +814,16 @@ body {
   .circle_5 > img {width: 150px;}
   .circle_6 {top: 470px;left: 75px;}
   .circle_7 {top: 420px;left: 200px;}
+}
+
+@media(max-width: 430px) {
+  .overlay {
+    background-image: url("./img/video/video-1.jpg");
+  }
+  .video-text {top: 15%;}
+  .gradient-text > p {margin-bottom: 10px;}
+  .gradient-swiper {margin-top: 10px;}
+  .gradient-title {margin-bottom: 15px;}
 }
 
 @media(max-width:375px) {
