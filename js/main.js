@@ -64,8 +64,10 @@ window.addEventListener('load', () => {
 // var rellax = new Rellax('.rellax'); 
 
 window.onload = function(){
-    if(window.innerWidth > 430) {
-    document.getElementById('video-container').innerHTML = '<video id="nubexVideo" loop autoplay muted playsinline poster="./img/video/video.jpg"><source data-src="./img/video/video.mp4"><source data-src="./img/video/video.webm" type="video/webm"></video>';
+  if(window.innerWidth > 430)
+    document.getElementById('video-container').innerHTML = '<video id="nubexVideo" loop autoplay muted playsinline poster="./img/video/video.jpg"><source data-src="./img/video/video.mp4"><source data-src="./img/video/video.webm" type="video/webm"></video>'
+}
+window.onload = function(){
+  if(window.innerWidth > 430)
     document.getElementsByClassName('video-text').innerHTML = '<p>Все устали от статических фонов на сайтах, все хотят движение и динамику. Благодаря видео дизайнеры могут создать определенные эмоции, сравнимые просмотром настоящего кино.</p><p>В этом году увеличится количество сайтов с видеозаставками на фоне, ведь видео делает страницу сайта более живой и динамичной. Это привлекает внимание пользователей, они просматривают ролики и понимают посыл дизайнера, который он хотел показать. Видеоклипы на фоне первого экрана сайта могут быть размером всего от нескольких секунд, до полноразмерного клипа со звуком и глубоким смыслом.</p>'
-    }
-};
+}
