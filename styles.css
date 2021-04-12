@@ -601,6 +601,10 @@ body {
   .video-title {
     margin-top: 25px;
   }
+  .asym-text-right {
+    margin-top: 175px;
+    margin-left: 10px;
+  }
 }
 
 @media(max-width:1024px) {
@@ -816,7 +820,7 @@ body {
   .circle_7 {top: 420px;left: 200px;}
 }
 
-@media(max-width: 430px) {
+@media (orientation: portrait) and (max-width: 430px) {
   .overlay {
     background-image: url("./img/video/video-1.jpg");
   }
@@ -826,7 +830,7 @@ body {
   .gradient-title {margin-bottom: 15px;}
 }
 
-@media(max-width:375px) {
+@media (orientation: portrait) and (max-width:375px) {
   .asym-content,
   .dark-theme-content,
   .mobile-content,
